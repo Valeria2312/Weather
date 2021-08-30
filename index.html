@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Weather</title>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      <div class="logo_text">Погода</div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="search">
+      <input required placeholder="Город" name="city" type="text" class="search__input">
+      <input required placeholder="Координаты" name="coordinates" type="text" class="search__input">
+    </div>
+  </div>
+</section>
+
+<section class="response">
+    <div class="container">
+      <div class="weather_card col-md-6">
+        <div class="today">Data</div>
+        <div class="temp">29°</div>
+        <div class="weather">Cloudy</div>
+
+            <div class="wind">
+              <div class="img">
+                <img src="./icons/wind.png" alt="wind">
+              </div>
+              <div class="wind_text">Wind</div>
+              <!--<div class="line"></div>-->
+              <div class="speed">10 km/h</div>
+            </div>
+
+            <div class="hum">
+              <div class="img">
+              <img src="./icons/Hum.png" alt="Hum">
+              </div>
+              <div class="hum_text">Hum</div>
+              <!--<div class="line"></div>-->
+              <div class="percent">54 %</div>
+            </div>
+          </div>
+          <button>
+            <div class="plus_round">
+              <div class="plus"></div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+</section>
+
+</body>
+</html>
