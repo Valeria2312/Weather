@@ -84,7 +84,7 @@ img {
   /*margin-top: 20px;*/
   /*margin-left: 46px;*/
 }
-.weather_card .wind_text, .hum_text {
+.weather_card .wind_text, .hum_text, speed_text {
   font-family: Overpass;
   font-style: normal;
   font-weight: normal;
@@ -95,6 +95,15 @@ img {
 }
 .weather_card .speed, .percent {
   margin-left: 10px;
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+}
+.weather_card .sign {
   font-family: Overpass;
   font-style: normal;
   font-weight: normal;
